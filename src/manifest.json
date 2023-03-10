@@ -1,0 +1,21 @@
+{
+  "name": "HK-Spotify-Webapp",
+  "short_name": "HK-Spotify-Webapp",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff",
+  "theme_color": "#673ab8",
+  "icons": [
+    {
+      "src": "/assets/icons/spotify.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/assets/icons/spotify.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

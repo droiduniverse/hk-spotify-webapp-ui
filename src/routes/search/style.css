@@ -1,0 +1,41 @@
+.search {
+  padding: 100px 200px;
+  margin: auto;
+  width: 70%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d2c7c7;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(186, 186, 186, 0.5);
+  background-color: #1e9146;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 60%;
+  min-width: 180px;
+}
+
+.card-body {
+  padding: 16px;
+  text-align: center;
+}
+
+ol {
+  list-style: symbols(cyclic "♪" "♫" "♩" "♬");
+}
+
+@counter-style thumbs {
+  system: cyclic;
+  symbols: "♪" "♫" "♩" "♬";
+  /*   
+	prefix: "before";
+	*/
+  suffix: " ";
+}
+
+ul {
+  list-style: thumbs;
+}

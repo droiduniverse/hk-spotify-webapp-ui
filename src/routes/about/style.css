@@ -1,0 +1,14 @@
+.profile {
+	padding: 100px 200px;
+	margin: auto;
+	width: 80%;
+}
+
+.text{
+	color: #282828;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 0;
+	margin-bottom: 8px;
+}

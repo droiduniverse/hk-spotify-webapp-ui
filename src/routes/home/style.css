@@ -1,0 +1,16 @@
+.home {
+  padding: 70px 50px;
+  min-height: 100%;
+  width: 100%;
+  font-style: oblique;
+}
+
+p {
+  color: aliceblue;
+  font-family: 'Helvetica Neue', arial, sans-serif;
+  font-size: 35px;
+  word-spacing: 2px;
+  font-weight: 700;
+
+}
+
