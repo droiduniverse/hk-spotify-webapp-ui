@@ -1,3 +1,3 @@
-# Spotify-service-ui
+# HK-SPOTIFY-UI
 
 Spotify service Webapp UI
