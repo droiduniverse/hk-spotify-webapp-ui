@@ -1,3 +1,3 @@
-# stock-service
+# HK-SPOTIFY-UI
 
-Spotify service Webapp UI
+Spotify Webapp UI for HK 
