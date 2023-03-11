@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "dotenv-webpack": "^8.0.1",
     "enzyme": "^3.10.0",
     "enzyme-adapter-preact-pure": "^2.0.0",
     "eslint": "^6.0.1",
@@ -30,6 +31,7 @@
   },
   "dependencies": {
     "bulma": "^0.9.4",
+    "dotenv": "^16.0.3",
     "preact": "^10.3.2",
     "preact-material-components": "^1.6.1",
     "preact-render-to-string": "^5.1.4",

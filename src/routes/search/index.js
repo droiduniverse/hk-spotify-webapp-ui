@@ -3,8 +3,7 @@ import style from "./style.css";
 import Card from "../../components/card/card";
 import List from "preact-material-components/List";
 import cardStyle from "../../components/card/style.css";
-import * as dotenv from "dotenv";
-dotenv.config();
+
 
 
 const Search = () => {
@@ -19,7 +18,7 @@ const Search = () => {
       if (artistName) {
         try {
           const response = await fetch(
-            process.env.SEARCH_SERVICE_URI,
+            process.env.REACT_APP_SEARCH_SERVICE_URI,
             {
               method: "POST",
               headers: {
