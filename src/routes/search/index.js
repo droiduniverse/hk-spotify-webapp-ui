@@ -18,7 +18,7 @@ const Search = () => {
       if (artistName) {
         try {
           const response = await fetch(
-            process.env.REACT_APP_SEARCH_SERVICE_URI,
+            process.env.PREACT_APP_SEARCH_SERVICE_URI,
             {
               method: "POST",
               headers: {

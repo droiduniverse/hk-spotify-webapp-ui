@@ -4502,6 +4502,11 @@
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-16.0.3.tgz"
   "version" "16.0.3"
 
+"dotenv@^4.0.0":
+  "integrity" "sha512-XcaMACOr3JMVcEv0Y/iUM2XaOsATRZ3U1In41/1jjK6vJZ2PZbQ1bzCG8uvaByfaBpl9gqc9QWJovpUGBXLLYQ=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-4.0.0.tgz"
+  "version" "4.0.0"
+
 "dotenv@^8.2.0":
   "integrity" "sha512-IrPdXQsk2BbzvCBGBOTmmSH5SodmqZNt4ERAZDmW4CT+tL8VtvinqywuANaFu4bOMWki16nqf0e4oC0QIaDr/g=="
   "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-8.6.0.tgz"
@@ -9478,6 +9483,14 @@
     "picocolors" "^0.2.1"
     "source-map" "^0.6.1"
 
+"preact-cli-plugin-env-vars@^1.2.1":
+  "integrity" "sha512-2JANOlTwdQjZPLT4LwzChcVSIQwLS1it4rgyR0QgMJ7GPtffmeHbtD3RGg5qSTJAAFvxxw7E/88ll24wOwu1WQ=="
+  "resolved" "https://registry.npmjs.org/preact-cli-plugin-env-vars/-/preact-cli-plugin-env-vars-1.2.1.tgz"
+  "version" "1.2.1"
+  dependencies:
+    "dotenv" "^4.0.0"
+    "resolve-env-vars" "^1.0.0"
+
 "preact-cli@^3.0.0":
   "integrity" "sha512-KyWiGo1GG/mTSvQhoHWOBKLEj8dWoezK2WOm9qj723jGRk37olT/GDhlYVrbgHYGXk+Dd4X/GGtVV+IaNpOXFw=="
   "resolved" "https://registry.npmjs.org/preact-cli/-/preact-cli-3.3.3.tgz"
@@ -10300,6 +10313,11 @@
   "version" "2.0.0"
   dependencies:
     "resolve-from" "^3.0.0"
+
+"resolve-env-vars@^1.0.0":
+  "integrity" "sha512-L5i1zTJC2QaVKiYTofGuyUJAYMMSlrZCJfSWMVfa+F9oV+AJm3JAD8mVIPS4hPC+IKCFZRDHGSgYI6NW+TnK7A=="
+  "resolved" "https://registry.npmjs.org/resolve-env-vars/-/resolve-env-vars-1.0.0.tgz"
+  "version" "1.0.0"
 
 "resolve-from@^3.0.0":
   "integrity" "sha1-six699nWiBvItuZTM17rywoYh0g= sha512-GnlH6vxLymXJNMBo7XP1fJIzBFbdYt49CuTwmB/6N53t+kMPRMFKz783LlQ4tv28XoQfMWinAJX6WCGf2IlaIw=="
