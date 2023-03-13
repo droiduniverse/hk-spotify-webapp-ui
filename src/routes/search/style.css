@@ -39,3 +39,12 @@ ol {
 ul {
   list-style: thumbs;
 }
+
+@media (max-width: 390px) {
+  .search {
+    padding: 0;
+    margin: auto;
+    width: auto;
+    padding-top: 200px;
+  }
+}

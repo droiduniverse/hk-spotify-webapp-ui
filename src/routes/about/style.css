@@ -12,3 +12,12 @@
 	margin-top: 0;
 	margin-bottom: 8px;
 }
+
+@media (max-width: 390px) {
+	.profile {
+	  padding: 0;
+	  margin: auto;
+	  width: auto;
+	  padding-top: 200px;
+	}
+  }
